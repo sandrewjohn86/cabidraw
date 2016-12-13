@@ -1,7 +1,7 @@
 !!!
 %html
 %head
-  %title CabiDraw | Your Drawers
+  %title CabiDrawers | Organized Drawers
   = stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true
   = javascript_include_tag 'application', 'data-turbolinks-track' => true
   = csrf_meta_tags
@@ -9,7 +9,7 @@
 %body
   %header
     .header_inner
-      = link_to "CabiDraw", root_path, id: "logo"
+      = link_to "CabiDrawers", root_path, id: "logo"
 
       %nav
         - if user_signed_in?
